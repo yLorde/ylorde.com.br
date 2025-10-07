@@ -1,0 +1,12 @@
+Sitemap: https://www.ylorde.com.br/sitemap.xml
+
+User-agent: *
+
+Allow: /
+Allow: /#/profile
+Allow: /#/login
+Allow: /#/store
+Allow: /#/downloads
+Allow: /#/about
+Allow: /#/tools/
+Allow: /#/privacy-policy
