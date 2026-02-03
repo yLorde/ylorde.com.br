@@ -227,7 +227,23 @@ p {
         grid-template-columns: 1fr;
     }
 
-    .skills-grid > div {
+    .skills-grid>div {
         padding-bottom: 1rem;
     }
+}
+
+.systems h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+    color: var(--accent-color);
+}
+
+.systems-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.systems-list li {
+    margin-bottom: 0.5rem;
+    color: var(--secondary-text);
 }
