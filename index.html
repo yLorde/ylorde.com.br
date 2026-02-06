@@ -26,14 +26,6 @@
                 <a href="mailto:contato@ylorde.com.br" class="link-item">Email</a>
             </div>
 
-            <div class="systems">
-                <h3>Sistemas operacionais:</h3>
-                <ul class="systems-list">
-                    <li>Windows 11 Pro</li>
-                    <li>Linux Mint</li>
-                    <li>macOS Monterey (Hackintosh)</li>
-                </ul>
-            </div>
         </div>
     </header>
 
@@ -41,8 +33,8 @@
 
         <section class="section">
             <h2>💻 Projetos em Destaque</h2>
-            <div class="projects-grid">
 
+            <div class="projects-grid">
                 <article class="project-card">
                     <h3>VShelf - App</h3>
                     <p>Aplicação de gerenciamento de títulos. Criamos algumas ferramentas de códigos abertos para uso em
@@ -59,7 +51,7 @@
                         <span>Python</span>
                     </div>
                     <a href="https://github.com/VShelf" target="_blank" class="project-link">Ver Repositório &rarr;</a>
-                    <a href="https://vshelf.app" target="_blank" class="project-link">Visitar site &rarr;</a>
+                    <!-- <a href="https://vshelf.app" target="_blank" class="project-link">Visitar site &rarr;</a> -->
                 </article>
 
                 <article class="project-card">
@@ -73,8 +65,11 @@
                         <span>PostgreSQL</span>
                         <span>Python</span>
                     </div>
-                    <a href="https://github.com/VShelf" target="_blank" class="project-link">Ver Repositório &rarr;</a>
-                    <a href="https://vshelf.app" target="_blank" class="project-link">Visitar site &rarr;</a>
+                    <div class="project-links">
+                        <a href="https://github.com/VShelf" target="_blank" class="project-link">Ver Repositório
+                            &rarr;</a>
+                        <!-- <a href="https://vshelf.app" target="_blank" class="project-link">Visitar site &rarr;</a> -->
+                    </div>
                 </article>
             </div>
 
@@ -86,15 +81,19 @@
                         <span>JavaScript</span>
                         <span>HTML/CSS</span>
                     </div>
-                    <a href="https://github.com/VShelf/js-scripts.vshelf.app" target="_blank" class="project-link">Ver
-                        Repositório &rarr;</a>
-                    <a href="https://js-scripts.vshelf.app" target="_blank" class="project-link">Visitar site &rarr;</a>
+                    <div class="project-links">
+                        <a href="https://github.com/VShelf/js-scripts.vshelf.app" target="_blank"
+                            class="project-link">Ver
+                            Repositório &rarr;</a>
+                        <a href="https://js-scripts.vshelf.app" target="_blank" class="project-link">Visitar site
+                            &rarr;</a>
+                    </div>
                 </article>
             </div>
 
-            <div class="projects-grid">
+            <!-- <div class="projects-grid">
                 <article class="project-card">
-                    <h3>DSA Digital - Gestão Financeira</h3>
+                    <h3>DSA Digital - Gestão Financeira (Ainda em Desenvolvimento)</h3>
                     <p>Gestão financeira descomplicada para o seu Negócio.</p>
                     <div class="tags">
                         <span>TypeScript</span>
@@ -108,7 +107,116 @@
                         <span>Docker</span>
                         <span>JWT</span>
                     </div>
-                    <a href="https://www.dsadigital.com.br" target="_blank" class="project-link">Visitar site &rarr;</a>
+                    <div class="project-links">
+                        <a href="https://www.dsadigital.com.br" target="_blank" class="project-link">Visitar site
+                            &rarr;</a>
+                    </div>
+                </article>
+            </div> -->
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Movie Finder — API Web Scraper</h3>
+                    <p>Uma função simples que busca dados de filmes via scraping no TheMovieDB.</p>
+                    <div class="tags">
+                        <span>Node.js</span>
+                        <span>JavaScript</span>
+                        <span>Web Scraper</span>
+                        <span>Axios</span>
+                        <span>Cherrio</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/VShelf/movie-finder" target="_blank" class="project-link">Ver
+                            Repositório &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <h3>Get TMDb Title ID</h3>
+                    <p>Projeto simples para buscar o ID de títulos no TMDb (The Movie Database) — útil se você quer usar
+                        a API do TMDb e precisa do ID de filmes ou séries.</p>
+                    <div class="tags">
+                        <span>Node.js</span>
+                        <span>JavaScript</span>
+                        <span>Web Scraper</span>
+                        <span>Axios</span>
+                        <span>Cherrio</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/VShelf/get-tmdb-title-id" target="_blank" class="project-link">Ver
+                            Repositório &rarr;</a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Barcode Finder</h3>
+                    <p>Um projeto simples em Node.js para buscar informações de produtos utilizando códigos de
+                        barras (EAN/UPC).</p>
+                    <div class="tags">
+                        <span>JavaScript</span>
+                        <span>Web Scraper</span>
+                        <span>Axios</span>
+                        <span>Cherrio</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/VShelf/barcode-finder" target="_blank" class="project-link">Ver
+                            Repositório &rarr;</a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Favorite Gender</h3>
+                    <p>Algoritmo simples que analisa uma lista de títulos (séries, filmes, etc.) em formato JSON e
+                        identifica qual gênero aparece com mais frequência, mostrando o gênero favorito.</p>
+                    <div class="tags">
+                        <span>Node.js</span>
+                        <span>JavaScript</span>
+                        <span>JSON</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/VShelf/favorite-gender" target="_blank" class="project-link">Ver
+                            Repositório &rarr;</a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>VelocityDiscordSync — Bots/Plugins</h3>
+                    <p>Ferramentas de integração entre Discord e Minecraft com suporte a comandos e atualizações
+                        automáticas.</p>
+                    <div class="tags">
+                        <span>Java</span>
+                        <span>Maven</span>
+                        <span>Minecraft</span>
+                        <span>Velocity</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/yLorde/VelocityDiscordSync/releases" target="_blank"
+                            class="project-link">Ver Releases &rarr;</a>
+                        <a href="https://github.com/yLorde/velocity-discordsync-dev" target="_blank"
+                            class="project-link">Ver Repositório &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <h3>PaperDiscordSync — Bots/Plugins</h3>
+                    <p>Ferramentas de integração entre Discord e Minecraft com suporte a comandos e atualizações
+                        automáticas.</p>
+                    <div class="tags">
+                        <span>Java</span>
+                        <span>Maven</span>
+                        <span>Minecraft</span>
+                        <span>Paper</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/yLorde/paper-discordsync-dev" target="_blank"
+                            class="project-link">Ver Repositório &rarr;</a>
+                    </div>
                 </article>
             </div>
 

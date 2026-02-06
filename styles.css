@@ -138,6 +138,13 @@ p {
     display: inline-block;
 }
 
+.project-links {
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    margin-top: auto;
+}
+
 .project-link:hover {
     text-decoration: underline;
 }
