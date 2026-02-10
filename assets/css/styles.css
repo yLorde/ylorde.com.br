@@ -254,3 +254,13 @@ p {
     margin-bottom: 0.5rem;
     color: var(--secondary-text);
 }
+
+.select-lang {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.select-lang a {
+    text-decoration: none;
+}
