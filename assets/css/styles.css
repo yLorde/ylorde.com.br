@@ -1,3 +1,6 @@
+@import "./dark-style.css";
+@import "./light-style.css";
+
 :root {
     --primary-text: #222;
     --secondary-text: #666;
