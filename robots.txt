@@ -1,5 +1,0 @@
-Sitemap: https://www.ylorde.com.br/sitemap.xml
-
-User-agent: *
-
-Allow: /
